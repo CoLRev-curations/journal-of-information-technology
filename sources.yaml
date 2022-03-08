@@ -2,7 +2,15 @@
   search_type: FEED
   source_name: Journal of Information Technology
   source_url: ''
-  search_parameters: 
-    - endpoint: dblp
-      params: SCOPE venue_key='journals/jitech' AND journal_abbreviated='J. Inf. Technol.'
+  search_parameters:
+  - endpoint: dblp
+    params: SCOPE venue_key='journals/jitech' AND journal_abbreviated='J. Inf. Technol.'
+  last_sync: null
+  comment: ''
+- filename: CROSSREF.bib
+  search_type: FEED
+  source_name: CROSSREF
+  source_url: CROSSREF.bib
+  search_parameters: ''
+  last_sync: null
   comment: ''
