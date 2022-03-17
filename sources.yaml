@@ -14,3 +14,11 @@
   search_parameters: ''
   last_sync: null
   comment: ''
+- filename: pdfs.bib
+  search_type: FEED
+  source_name: JIT
+  source_url: pdfs
+  search_parameters:
+  - endpoint: pdfs_directory
+    params: SCOPE path='pdfs' WITH journal='Journal of Information Technology' AND sub_dir_pattern='volume_number'
+  comment: NA
