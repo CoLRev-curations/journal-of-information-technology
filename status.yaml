@@ -1,8 +1,6 @@
 atomic_steps: 12756
-completed_atomic_steps: 5315
-completeness_condition: false
-status:
-  CURATED_records: 1063
+colrev_status:
+  CURATED_records: 0
   currently:
     exclusion: {}
     md_duplicates_removed: 1063
@@ -42,3 +40,5 @@ status:
     rev_prescreen_included: 0
     rev_screen: 0
     rev_synthesized: 0
+completed_atomic_steps: 5315
+completeness_condition: false
