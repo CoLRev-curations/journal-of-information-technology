@@ -59,7 +59,9 @@
             "comment": ""
         }
     ],
-    "search": {},
+    "search": {
+        "retrieve_forthcoming": false
+    },
     "load": {},
     "prep": {
         "fields_to_keep": [],
@@ -97,9 +99,6 @@
                     },
                     {
                         "endpoint": "resolve_crossrefs"
-                    },
-                    {
-                        "endpoint": "get_doi_from_sem_scholar"
                     },
                     {
                         "endpoint": "get_doi_from_urls"
@@ -142,9 +141,6 @@
                 "scripts": [
                     {
                         "endpoint": "prep_curated"
-                    },
-                    {
-                        "endpoint": "get_doi_from_sem_scholar"
                     },
                     {
                         "endpoint": "get_doi_from_urls"
@@ -193,9 +189,6 @@
                     },
                     {
                         "endpoint": "correct_recordtype"
-                    },
-                    {
-                        "endpoint": "get_doi_from_sem_scholar"
                     },
                     {
                         "endpoint": "get_doi_from_urls"
