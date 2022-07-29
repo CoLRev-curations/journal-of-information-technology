@@ -4,9 +4,9 @@ colrev_status:
   currently:
     exclusion: {}
     md_duplicates_removed: 1063
-    md_imported: 1072
-    md_needs_manual_preparation: 0
-    md_prepared: 0
+    md_imported: 0
+    md_needs_manual_preparation: 162
+    md_prepared: 910
     md_processed: 1063
     md_retrieved: 0
     non_completed: 2135
@@ -24,8 +24,8 @@ colrev_status:
     rev_synthesized: 0
   overall:
     md_imported: 3198
-    md_needs_manual_preparation: 2126
-    md_prepared: 2126
+    md_needs_manual_preparation: 3198
+    md_prepared: 3036
     md_processed: 1063
     md_retrieved: 3198
     pdf_imported: 0
@@ -40,5 +40,5 @@ colrev_status:
     rev_prescreen_included: 0
     rev_screen: 0
     rev_synthesized: 0
-completed_atomic_steps: 5315
+completed_atomic_steps: 7297
 completeness_condition: false
