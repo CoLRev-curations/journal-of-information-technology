@@ -18,7 +18,6 @@ repos:
         entry: colrev-hooks-report
         language: python
         stages: [prepare-commit-msg]
-        pass_filenames: false
     -   id: colrev-hooks-share
         name: "CoLRev ReviewManager: share"
         entry: colrev-hooks-share
