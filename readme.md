@@ -4,12 +4,12 @@ This curated repository is based on the [ColRev](https://github.com/geritwagner/
 
 - It provides curated metadata and PDF hashes.
 - Additional metadata should be curated in derivative repositories
-- Corrections are welcome and should be provided using a pull-request (e.g. using the `colrev environment --apply_corrections` convenience function)
+- Corrections are welcome and should be provided using a pull-request (e.g. using the `colrev push -r` convenience function)
 
 To install run
 
 ```
-colrev environment --install geritwagner/journal-of-information-technology 
+colrev env --install geritwagner/journal-of-information-technology 
 ```
 
 <!-- TABLE_SUMMARY -->
@@ -122,7 +122,7 @@ colrev environment --install geritwagner/journal-of-information-technology
 |1996-11-3     |               7|               7|               7|                |
 |1996-11-2     |               7|               7|               7|                |
 |1996-11-1     |               8|               8|               8|                |
-|1995-10-4     |               9|               9|            *1*7|              NO|
+|1995-10-4     |               9|               9|               8|              NO|
 |1995-10-3     |               7|               7|               7|                |
 |1995-10-2     |               9|               9|               8|              NO|
 |1995-10-1     |               7|               7|            *1*6|              NO|
@@ -136,13 +136,13 @@ colrev environment --install geritwagner/journal-of-information-technology
 |1993-8-1      |               8|               8|               7|              NO|
 |1992-7-4      |               9|               9|            *1*8|              NO|
 |1992-7-3      |               7|               7|               7|                |
-|1992-7-2      |               8|               8|            *1*7|              NO|
+|1992-7-2      |               8|               8|               8|                |
 |1992-7-1      |               9|               9|               9|                |
 |1991-6-3-4    |              23|              23|               -|              NO|
 |1991-6-3      |               -|               -|            *18*|              NO|
 |1991-6-2      |              15|              15|               9|              NO|
 |1991-6-1      |               9|               9|               8|              NO|
-|1990-5-4      |               9|               9|            *1*8|              NO|
+|1990-5-4      |               9|               9|               9|                |
 |1990-5-3      |              12|              12|               8|              NO|
 |1990-5-2      |              15|              15|            *2*9|              NO|
 |1990-5-1      |              13|              13|            *3*9|              NO|
@@ -157,8 +157,8 @@ colrev environment --install geritwagner/journal-of-information-technology
 |1987-2-4      |              12|              12|            *3*8|              NO|
 |1987-2-3      |               9|               9|               9|                |
 |1987-2-2      |              10|              10|            *1*9|              NO|
-|1987-2-1      |              10|              10|            *1*7|              NO|
-|1986-1-4      |               8|               8|            *2*5|              NO|
+|1987-2-1      |              10|              10|               8|              NO|
+|1986-1-4      |               8|               8|            *1*6|              NO|
 |1986-1-3      |               7|               7|            *1*6|              NO|
 |1986-1-2      |              12|              12|           *1*10|              NO|
 |1986-1-1      |              13|              13|           *1*10|              NO|
