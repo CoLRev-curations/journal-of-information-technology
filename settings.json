@@ -19,7 +19,8 @@
         "id_pattern": "three_authors_year",
         "share_stat_req": "processed",
         "delay_automated_processing": false,
-        "colrev_version": "0.8.0"
+        "colrev_version": "0.8.1",
+        "auto_upgrade": true
     },
     "sources": [
         {
@@ -63,16 +64,6 @@
                     "journal_issn": "1466-4437"
                 }
             },
-            "load_conversion_package_endpoint": {
-                "endpoint": "colrev.bibtex"
-            },
-            "comment": ""
-        },
-        {
-            "endpoint": "colrev.crossref",
-            "filename": "data/search/crossref_md.bib",
-            "search_type": "OTHER",
-            "search_parameters": {},
             "load_conversion_package_endpoint": {
                 "endpoint": "colrev.bibtex"
             },
