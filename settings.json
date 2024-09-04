@@ -54,11 +54,8 @@
             "filename": "data/search/CROSSREF.bib",
             "search_type": "TOC",
             "search_parameters": {
-                "scope": {
-                    "issn": [
-                        "1466-4437"
-                    ]
-                }
+                "url": "https://api.crossref.org/journals/1466-4437/works",
+                "version": "1.0.0"
             },
             "comment": ""
         }
